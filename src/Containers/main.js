@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 class MainPage extends Component {
     constructor(props) {
@@ -7,7 +8,9 @@ class MainPage extends Component {
 
     render() {
         return (
+            <>
             <h1>Hello</h1>
+            </>
         )
     }
 }
