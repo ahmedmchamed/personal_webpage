@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Banner from '../components/banner';
 import NavBar from '../components/navbar';
 import Home from '../components/home';
 import Projects from '../components/projects';
@@ -14,6 +15,7 @@ class MainPage extends Component {
         return (
             <Router>
             <>
+                <Banner />
                 <NavBar />
                 {/* <Switch> */}
                     <Route path="/" component={Home}></Route>
