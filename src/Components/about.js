@@ -1,9 +1,9 @@
 import React from 'react';
 
-const About = () => {
+const About = (props) => {
 
     return (
-        null
+        <a>WHAT THE PISS</a>
     )
 
 }

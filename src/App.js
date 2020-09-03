@@ -1,5 +1,5 @@
 import React from 'react';
-import MainPage from './Containers/main'
+import MainPage from './containers/main'
 import './App.css';
 
 function App() {

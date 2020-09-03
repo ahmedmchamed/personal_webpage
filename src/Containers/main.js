@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import NavBar from '../Components/navbar';
-import Home from '../Components/home';
-import Projects from '../Components/projects';
-import About from '../Components/about';
+import NavBar from '../components/navbar';
+import Home from '../components/home';
+import Projects from '../components/projects';
+import About from '../components/about';
 
 class MainPage extends Component {
     constructor(props) {
@@ -15,11 +15,11 @@ class MainPage extends Component {
             <Router>
             <>
                 <NavBar />
-                <Switch>
+                {/* <Switch> */}
                     <Route path="/" component={Home}></Route>
                     <Route path="/projects" component={Projects}></Route>
                     <Route path="/about" component={About}></Route>
-                </Switch>
+                {/* </Switch> */}
             </>
             </Router>
         )
