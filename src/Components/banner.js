@@ -4,7 +4,10 @@ import BannerImage from '../images/banner.png'
 const Banner = () => {
 
     return (
-        <img src={BannerImage}></img>
+        <>
+            <img src={BannerImage}></img>
+            <h1>Ahmed Hamed</h1>
+        </>
     )
 
 }
